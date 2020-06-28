@@ -1,0 +1,10 @@
+header {
+    height: 200px;
+    &__logo {
+        background-color: red;
+        display: inline;
+        height: 100%;
+    }
+}
+
+@mixin flexbox {}
