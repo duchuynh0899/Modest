@@ -1244,5 +1244,9 @@ footer div ul li {
     font-weight: normal;
     color: #292f36;
 }
+footer div ul li a {
+    /* width: 27px; */
+    width: 15px;
+}
 
 }
