@@ -1164,7 +1164,7 @@ h1 {
         display: grid;
     }
     footer div ul li a{
-        margin: 19px;
+        
     }
     footer div p{
         text-align: center;
@@ -1174,6 +1174,10 @@ h1 {
     }
     footer div ul li {
         margin-left: none
+    }
+    #about ul li a{
+        width: 45px;
+        height: 50px;
     }
    
 }
@@ -1240,4 +1244,5 @@ footer div ul li {
     font-weight: normal;
     color: #292f36;
 }
+
 }
