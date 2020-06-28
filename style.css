@@ -1084,13 +1084,18 @@ h1 {
     #hero .container {
         padding-top: 126px;
     }
-    #hero .container {
-        padding-left: 2px;
+    #hero .container p {
+        padding-left: 0;
     }
+    #hero .container h2{
+        padding-left: 0;
+    }
+    
     #hero .container h2, #hero .container p, #hero .container div {
         max-width: none;
         text-align: center;
     }
+   
     #about .container>div>div ul  {
         text-align: center;
     }
@@ -1179,8 +1184,15 @@ h1 {
         width: 45px;
         height: 50px;
     }
-   
-}
+    
+    #team-list .info h4 {
+    font-size: 12px;}
+    #team-list .info p {
+        font-size: 10px;      
+    }
+    *{
+        text-align: center;
+    }
 @media screen and (max-width: 320px){
     #hero .container div a {
         margin-right: 0;
@@ -1200,7 +1212,7 @@ h1 {
     font-size: 25px;
 }
 h2.has-first-block {
-    font-size: 25px;
+    font-size: 24px;
 }
 #team-list {
     display: block;
@@ -1214,7 +1226,7 @@ h2.has-first-block {
 }
 #hero .container h2 {
     display: block;
-    font-size: 26px;
+    font-size: 24px;
 }
 #about ul li a{
     width: 35px;
@@ -1248,5 +1260,11 @@ footer div ul li a {
     /* width: 27px; */
     width: 15px;
 }
+#about ol li h3 {
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #292f36;
+    margin-bottom: 3px;
 
 }
