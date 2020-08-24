@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
+    <link rel="stylesheet" href="node_modules/sal.js/dist/sal.css">
+    <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 
@@ -22,40 +25,43 @@
 
 
         <!-- header -->
-        <header >
-            
-            <nav class="navbar" >
-                <div style="margin: .5rem;">
-                    <a href="#"><img src="images/logo_modest.png"></a>
-                </div>
-                <a href="#" class="toggle-button">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </a>
-                <div class="navbar-links">                  
+        <header>
+            <div class="container">
+                <div id="myTopnav" class="topnav">
+
+
+                    <h1>
+                        <a href="#"><img src="images/logo_modest.png"></a>
+                    </h1>
                     <ul>
-                        <li ><a href="#" >Home</a></li>
-                        <li ><a href="#" >About</a></li>
-                        <li ><a href="#" >Work</a></li>
-                        <li ><a href="#" >Team</a></li>
-                        <li ><a href="#" >Service</a></li>
-                        <li ><a href="#" >Feature</a></li>
-                        <li ><a href="#" >Contact</a></li>
-                        
+                        <li><a class="active" href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Feature</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
-            </nav>   
-      
-    </header>
+            </div>
+        </header>
         <!-- hero -->
         <div id="hero">
             <div class="container">
-                <h2>Welcome to our marketplace</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Nulla vestibulu lacus ...</p>
+                <h2  data-sal="zoom-in"
+                data-sal-delay="300"
+                data-sal-easing="ease-out-back">Welcome to our marketplace</h2>
+                <p data-sal="zoom-in"
+                data-sal-delay="300"
+                data-sal-easing="ease-out-back">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Nulla vestibulu lacus ...</p>
                 <div>
-                    <a href="#">View more</a>
-                    <a href="#">Video tour</a>
+                    <a href="#" class="wow rollIn">View more</a>
+                    <a href="#" class="wow rollIn">Video tour</a>
                 </div>
                 <ul>
                     <li><a href="#">slide 1</a></li>
@@ -65,11 +71,15 @@
             </div>
         </div>
         <!-- about -->
-        <div id="about">
-            <div class="container">
-                <h2 class="has-first-block">We are modest.</h2>
+        <div id="about" >
+            <div class="container" >
+                <h2 class="has-first-block " data-sal="zoom-in"
+                data-sal-delay="300"
+                data-sal-easing="ease-out-back">We are modest.</h2>
                 <div>
-                    <div>
+                    <div data-sal="zoom-out"
+                    data-sal-delay="300"
+                    data-sal-easing="ease-out-back">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <ul>
@@ -80,7 +90,9 @@
                             <li><a href="#">Be</a></li>
                         </ul>
                     </div>
-                    <div>
+                    <div data-sal="slide-Right"
+                    data-sal-delay="300"
+                    data-sal-easing="ease-out-back">
                         <ol>
                             <li>
                                 <h3>Dedication to the customers</h3>
@@ -159,6 +171,7 @@
                         <img src="images/team/delores.jpg">
                         <div class="mask">
                             <ul>
+                                                
                                 <li><a href="#">Twitter</a></li>
                                 <li><a href="#">Facebook</a></li>
                                 <li><a href="#">Linkedin</a></li>
@@ -177,8 +190,8 @@
         <div id="work">
             <div class="container">
                 <h2 class="has-first-block">Lovely works</h2>
-                <div id="work-list">
-                    <div>
+                <div id="work-list" class="wow fadeIn">
+                    <div class="wow slideInRight" data-wow-delay="1s">
                         <img src="images/lovely-work/pic1.jpg">
                         <div id="plus">
                             <a href="#"><img src="images/phus.png" alt=""></a>
@@ -188,7 +201,7 @@
                             <h4>Partnership guidlines</h4>
                         </div>
                     </div>
-                    <div>
+                    <div >
                         <img src="images/lovely-work/pic2.jpg">
                         <div id="plus">
                             <a href="#"><img src="images/phus.png" alt=""></a>
@@ -197,7 +210,7 @@
                             <h4>Partnership guidlines</h4>
                         </div>
                     </div>
-                    <div>
+                    <div class="wow slideInRight" data-wow-delay="1s">
                         <img src="images/lovely-work/pic3.jpg">
                         <div id="plus">
                             <a href="#"><img src="images/phus.png" alt=""></a>
@@ -206,7 +219,7 @@
                             <h4>Partnership guidlines</h4>
                         </div>
                     </div>
-                    <div>
+                    <div class="wow slideInLeft" data-wow-delay="1s">
                         <img src="images/lovely-work/pic4.jpg">
                         <div id="plus">
                             <a href="#"><img src="images/phus.png" alt=""></a>
@@ -215,7 +228,7 @@
                             <h4>Partnership guidlines</h4>
                         </div>
                     </div>
-                    <div>
+                    <div class="wow slideInLeft" data-wow-delay="1s">
                         <img src="images/lovely-work/pic5.jpg">
                         <div id="plus">
                             <a href="#"><img src="images/phus.png" alt=""></a>
@@ -224,7 +237,7 @@
                             <h4>Partnership guidlines</h4>
                         </div>
                     </div>
-                    <div>
+                    <div class="wow slideInLeft" data-wow-delay="1s">
                         <img src="images/lovely-work/pic6.jpg">
                         <div id="plus">
                             <a href="#"><img src="images/phus.png" alt=""></a>
@@ -362,15 +375,48 @@
         window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')
     </script>
     <script>
-        const toggleButton = document.getElementsByClassName('toggle-button')[0]
-        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
-
-            toggleButton.addEventListener('click', () => {
-                    navbarLinks.classList.toggle('active')
-                                        })
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += "responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <script src="node_modules/sal.js/dist/sal.js"></script>
+    <script>
+        sal();
+    </script>
+    <script>
+        new WOW().init();
     </script>
 
 </body>
 
 <script type="text/javascript" src="load.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </html>
