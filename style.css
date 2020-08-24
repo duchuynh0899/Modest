@@ -323,6 +323,7 @@ header .container .icon {
     padding-top: 60px;
     display: flex;
     justify-content: space-between;
+    transition: all 3s;
 }
 
 #team-list .mask {
