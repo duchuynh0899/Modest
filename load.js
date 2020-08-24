@@ -1,5 +1,4 @@
-// create config object: rootMargin and threshold
-// are two properties exposed by the interface
+
 const config = {
     rootMargin: '0px 0px 50px 0px',
     threshold: 0
@@ -20,7 +19,7 @@ const config = {
         self.unobserve(entry.target);
       }
     });
-<<<<<<< HEAD
+
 
     window.onload = function() {
         var headerall = document.getElementById('all');
@@ -35,6 +34,6 @@ window.addEventListener('DOMContentLoaded', function(event) {
     console.log('html da tai xong');
     startjs();
 })
-=======
-  }, config);
->>>>>>> 44b1e56ae5171409b588b3fca73f09446eac1000
+
+
+
