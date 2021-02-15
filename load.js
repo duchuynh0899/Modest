@@ -6,34 +6,38 @@ const config = {
   
   // register the config object with an instance
   // of intersectionObserver
-  let observer = new intersectionObserver(function(entries, self) {
-    // iterate over each entry
-    entries.forEach(entry => {
-      // process just the images that are intersecting.
-      // isIntersecting is a property exposed by the interface
-      if(entry.isIntersecting) {
-        // custom function that copies the path to the img
-        // from data-src to src
-        preloadImage(entry.target);
-        // the image is now in place, stop watching
-        self.unobserve(entry.target);
-      }
-    });
+let observer = new intersectionObserver(function (entries, self) {
+  // iterate over each entry
+  entries.forEach(entry => {
+    // process just the images that are intersecting.
+    // isIntersecting is a property exposed by the interface
+    if (entry.isIntersecting) {
+      // custom function that copies the path to the img
+      // from data-src to src
+      preloadImage(entry.target);
+      // the image is now in place, stop watching
+      self.unobserve(entry.target);
+    }
+  });
 
 
-    window.onload = function() {
-        var headerall = document.getElementById('all');
+  window.onload = function () {
+    var headerall = document.getElementById('all');
 
-        headerall.style.opacity = 1;
-    };
+    headerall.style.opacity = 1;
+  };
 
 
 }
 
-window.addEventListener('DOMContentLoaded', function(event) {
-    console.log('html da tai xong');
-    startjs();
-})
+// window.addEventListener('DOMContentLoaded', function(event) {
+//     console.log('html da tai xong');
+//     startjs();
+// }),
+
+// Fixed header
+
+
 
 
 

@@ -2,398 +2,427 @@
 <html>
 
 <head>
-    <title>Modest</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
-    <link rel="stylesheet" href="node_modules/sal.js/dist/sal.css">
-    <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+  <title>Modest</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
+  <link rel="stylesheet" href="node_modules/sal.js/dist/sal.css">
+  <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
+  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 
 <body>
-    <div id="loader-wrapper">
-        <div id="loader"></div>
+  <div id="loader-wrapper">
+    <div id="loader"></div>
 
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
 
+  </div>
+  <div id="all">
+
+
+    <!-- header -->
+    <header>
+
+      <nav class="navbar">
+        <div style="margin: .5rem;">
+          <a href="#"><img src="images/logo_modest.png"></a>
+        </div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#what-we-do">Service</a></li>
+            <li><a href="#feature">Feature</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+          </ul>
+        </div>
+      </nav>
+
+    </header>
+    <!-- hero -->
+    <div id="hero">
+      <div class="container">
+        <h2 data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-out-back">Welcome to our marketplace</h2>
+        <p data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-out-back">Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Nulla vestibulu
+          lacus ...</p>
+        <div>
+          <a href="#" class="wow rollIn">View more</a>
+          <a href="#" class="wow rollIn">Video tour</a>
+        </div>
+        <ul>
+          <li><a href="#">slide 1</a></li>
+          <li><a href="#" class="current">slide 2</a></li>
+          <li><a href="#">slide 3</a></li>
+        </ul>
+      </div>
     </div>
-    <div id="all">
-
-
-        <!-- header -->
-        <header >
-            
-                <nav class="navbar" >
-                    <div style="margin: .5rem;">
-                        <a href="#"><img src="images/logo_modest.png"></a>
-                    </div>
-                    <a href="#" class="toggle-button">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </a>
-                    <div class="navbar-links">                  
-                        <ul>
-                            <li ><a href="#" >Home</a></li>
-                            <li ><a href="#" >About</a></li>
-                            <li ><a href="#" >Work</a></li>
-                            <li ><a href="#" >Team</a></li>
-                            <li ><a href="#" >Service</a></li>
-                            <li ><a href="#" >Feature</a></li>
-                            <li ><a href="#" >Contact</a></li>
-                            
-                        </ul>
-                    </div>
-                </nav>   
-          
-        </header>
-        <!-- hero -->
-        <div id="hero">
-            <div class="container">
-                <h2  data-sal="zoom-in"
-                data-sal-delay="300"
-                data-sal-easing="ease-out-back">Welcome to our marketplace</h2>
-                <p data-sal="zoom-in"
-                data-sal-delay="300"
-                data-sal-easing="ease-out-back">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Nulla vestibulu lacus ...</p>
-                <div>
-                    <a href="#" class="wow rollIn">View more</a>
-                    <a href="#" class="wow rollIn">Video tour</a>
-                </div>
-                <ul>
-                    <li><a href="#">slide 1</a></li>
-                    <li><a href="#" class="current">slide 2</a></li>
-                    <li><a href="#">slide 3</a></li>
-                </ul>
-            </div>
+    <!-- about -->
+    <div id="about">
+      <div class="container">
+        <h2 class="has-first-block " data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-out-back">We are
+          modest.</h2>
+        <div>
+          <div data-sal="zoom-out" data-sal-delay="300" data-sal-easing="ease-out-back">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare
+              sagittis dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare
+              sagittis dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Google</a></li>
+              <li><a href="#">Dribble</a></li>
+              <li><a href="#">Be</a></li>
+            </ul>
+          </div>
+          <div data-sal="slide-Right" data-sal-delay="300" data-sal-easing="ease-out-back">
+            <ol>
+              <li>
+                <h3>Dedication to the customers</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
+              </li>
+              <li>
+                <h3>Working closely with our clients</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
+              </li>
+              <li>
+                <h3>Increase happiness</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
+              </li>
+            </ol>
+          </div>
         </div>
-        <!-- about -->
-        <div id="about" >
-            <div class="container" >
-                <h2 class="has-first-block " data-sal="zoom-in"
-                data-sal-delay="300"
-                data-sal-easing="ease-out-back">We are modest.</h2>
-                <div>
-                    <div data-sal="zoom-out"
-                    data-sal-delay="300"
-                    data-sal-easing="ease-out-back">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <ul>
-                            <li><a href="#">Facebook</a></li>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Google</a></li>
-                            <li><a href="#">Dribble</a></li>
-                            <li><a href="#">Be</a></li>
-                        </ul>
-                    </div>
-                    <div data-sal="slide-Right"
-                    data-sal-delay="300"
-                    data-sal-easing="ease-out-back">
-                        <ol>
-                            <li>
-                                <h3>Dedication to the customers</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
-                            </li>
-                            <li>
-                                <h3>Working closely with our clients</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
-                            </li>
-                            <li>
-                                <h3>Increase happiness</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
+      </div>
+    </div>
+    <!-- team -->
+    <div id="team" class="container">
+      <h2 class="has-first-block">Meet the team.</h2>
+      <div id="team-list">
+        <div>
+          <div>
+            <img src="images/team/gloria.jpg">
+            <div class="mask">
+              <ul>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Linkedin</a></li>
+              </ul>
             </div>
-        </div>
-        <!-- team -->
-        <div id="team" class="container">
-            <h2 class="has-first-block">Meet the team.</h2>
-            <div id="team-list">
-                <div>
-                    <div>
-                        <img src="images/team/gloria.jpg">
-                        <div class="mask">
-                            <ul>
-                                <li><a href="#">Twitter</a></li>
-                                <li><a href="#">Facebook</a></li>
-                                <li><a href="#">Linkedin</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="info">
-                        <h4>Gloria bromley</h4>
-                        <p>CEO and Founder</p>
-                    </div>
-                </div>
-
-                <div>
-                    <div>
-                        <img src="images/team/paul.jpg">
-                        <div class="mask">
-                            <ul>
-                                <li><a href="#">Twitter</a></li>
-                                <li><a href="#">Facebook</a></li>
-                                <li><a href="#">Linkedin</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="info">
-                        <h4>Gloria bromley</h4>
-                        <p>CEO and Founder</p>
-                    </div>
-                </div>
-
-                <div>
-                    <div>
-                        <img src="images/team/judith.jpg">
-                        <div class="mask">
-                            <ul>
-                                <li><a href="#">Twitter</a></li>
-                                <li><a href="#">Facebook</a></li>
-                                <li><a href="#">Linkedin</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="info">
-                        <h4>Judith gillette</h4>
-                        <p>Graphic Designer</p>
-                    </div>
-                </div>
-
-                <div>
-                    <div>
-                        <img src="images/team/delores.jpg">
-                        <div class="mask">
-                            <ul>
-                                                
-                                <li><a href="#">Twitter</a></li>
-                                <li><a href="#">Facebook</a></li>
-                                <li><a href="#">Linkedin</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="info">
-                        <h4>Gloria bromley</h4>
-                        <p>CEO and Founder</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <!-- Lovely work -->
-        <div id="work">
-            <div class="container">
-                <h2 class="has-first-block">Lovely works</h2>
-                <div id="work-list" class="wow fadeIn">
-                    <div class="wow slideInRight" data-wow-delay="1s">
-                        <img src="images/lovely-work/pic1.jpg">
-                        <div id="plus">
-                            <a href="#"><img src="images/phus.png" alt=""></a>
-                        </div>
-
-                        <div class="mask">
-                            <h4>Partnership guidlines</h4>
-                        </div>
-                    </div>
-                    <div >
-                        <img src="images/lovely-work/pic2.jpg">
-                        <div id="plus">
-                            <a href="#"><img src="images/phus.png" alt=""></a>
-                        </div>
-                        <div class="mask">
-                            <h4>Partnership guidlines</h4>
-                        </div>
-                    </div>
-                    <div class="wow slideInRight" data-wow-delay="1s">
-                        <img src="images/lovely-work/pic3.jpg">
-                        <div id="plus">
-                            <a href="#"><img src="images/phus.png" alt=""></a>
-                        </div>
-                        <div class="mask">
-                            <h4>Partnership guidlines</h4>
-                        </div>
-                    </div>
-                    <div class="wow slideInLeft" data-wow-delay="1s">
-                        <img src="images/lovely-work/pic4.jpg">
-                        <div id="plus">
-                            <a href="#"><img src="images/phus.png" alt=""></a>
-                        </div>
-                        <div class="mask">
-                            <h4>Partnership guidlines</h4>
-                        </div>
-                    </div>
-                    <div class="wow slideInLeft" data-wow-delay="1s">
-                        <img src="images/lovely-work/pic5.jpg">
-                        <div id="plus">
-                            <a href="#"><img src="images/phus.png" alt=""></a>
-                        </div>
-                        <div class="mask">
-                            <h4>Partnership guidlines</h4>
-                        </div>
-                    </div>
-                    <div class="wow slideInLeft" data-wow-delay="1s">
-                        <img src="images/lovely-work/pic6.jpg">
-                        <div id="plus">
-                            <a href="#"><img src="images/phus.png" alt=""></a>
-                        </div>
-                        <div class="mask">
-                            <h4>Partnership guidlines</h4>
-                        </div>
-                    </div>
-                </div>
-                <div id="action">
-                    <button>Show me more</button>
-                </div>
-            </div>
-        </div>
-        <!-- What we do -->
-        <div id="what-we-do">
-            <div class="container">
-                <h2 class="has-first-block">What we do.</h2>
-                <ul>
-                    <li>
-                        <h4>Easy theme setup</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
-                    </li>
-                    <li>
-                        <h4>Pixel perfect design</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
-                    </li>
-                    <li>
-                        <h4>Responsiv display</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
-                    </li>
-                    <li>
-                        <h4>24/7 support</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
-                    </li>
-                    <li>
-                        <h4>Easy theme setup</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
-                    </li>
-                    <li>
-                        <h4>Pixel perfect design</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
-                    </li>
-                    <li>
-                        <h4>Responsiv display</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
-                    </li>
-                    <li>
-                        <h4>24/7 support</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
-                    </li>
-                </ul>
-            </div>
+          </div>
+          <div class="info">
+            <h4>Gloria bromley</h4>
+            <p>CEO and Founder</p>
+          </div>
         </div>
 
-        <!-- Feature -->
-        <div id="feature">
-            <div class="container">
-                <h2 class="has-first-block">Features.</h2>
-                <div id="feature-list">
-                    <div>
-                        <img src="images/feature/pic1.jpg">
-                        <h4>Product Design: Eames Chairs</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
-                    </div>
-                    <div>
-                        <img src="images/feature/pic2.jpg">
-                        <h4>Elegant and Colorful Logos</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
-                    </div>
-                    <div>
-                        <img src="images/feature/pic3.jpg">
-                        <h4>A Showcase of Creative</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
-                    </div>
-                </div>
+        <div>
+          <div>
+            <img src="images/team/paul.jpg">
+            <div class="mask">
+              <ul>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Linkedin</a></li>
+              </ul>
             </div>
+          </div>
+          <div class="info">
+            <h4>Gloria bromley</h4>
+            <p>CEO and Founder</p>
+          </div>
         </div>
-        <!-- Contact -->
-        <div id="contact">
-            <div class="container">
-                <h2 class="has-first-block">Stay in touch.</h2>
+
+        <div>
+          <div>
+            <img src="images/team/judith.jpg">
+            <div class="mask">
+              <ul>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Linkedin</a></li>
+              </ul>
             </div>
-            <div id="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29793.98839009512!2d105.81945407643936!3d21.022738704089885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab9bd9861ca1%3A0xe7887f7b72ca17a9!2zSMOgIE7hu5lpLCBIb8OgbiBLaeG6v20sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1592787404329!5m2!1svi!2s"
-                    width="100%" height="350px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
-            <div class="contact-info container">
-                <div>
-                    <h4>Contact information</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metusLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed isi metus. Lorem ipsum dolor
-                        sit amet, consectetur adipiscing elit. </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <!-- ----------------------- form -------------------------->
-                <form style="z-index: 100000000;">
-                    <div class="two-col">
-                        <div>
-                            <label for="name">Your name</label>
-                            <input type="text" name="name" id="name">
-                        </div>
-                        <div>
-                            <label for="email">Your email</label>
-                            <input type="email" name="email" id="email">
-                        </div>
-                    </div>
-                    <div>
-                        <label>Your message</label>
-                        <textarea id="message" name="message" rows="10"></textarea>
-                    </div>
-                    <div>
-                        <button type="submit">Send message</button>
-                    </div>
-                </form>
-            </div>
+          </div>
+          <div class="info">
+            <h4>Judith gillette</h4>
+            <p>Graphic Designer</p>
+          </div>
         </div>
-        <!-- footer -->
-        <footer>
-            <div class="container">
-                <p>&copy; Copyright 2014 by Huỳnh Nguyễn. All right reserved.</p>
-                <ul>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Skype</a></li>
-                    <li><a href="#">Be</a></li>
-                    <li><a href="#">Linkedin</a></li>
-                </ul>
+
+        <div>
+          <div>
+            <img src="images/team/delores.jpg">
+            <div class="mask">
+              <ul>
+
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Linkedin</a></li>
+              </ul>
             </div>
-        </footer>
+          </div>
+          <div class="info">
+            <h4>Gloria bromley</h4>
+            <p>CEO and Founder</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- Lovely work -->
+    <div id="work">
+      <div class="container">
+        <h2 class="has-first-block">Lovely works</h2>
+        <div id="work-list" class="wow fadeIn">
+          <div class="wow slideInRight" data-wow-delay="1s">
+            <img src="images/lovely-work/pic1.jpg">
+            <div id="plus">
+              <a href="#"><img src="images/phus.png" alt=""></a>
+            </div>
+
+            <div class="mask">
+              <h4>Partnership guidlines</h4>
+            </div>
+          </div>
+          <div>
+            <img src="images/lovely-work/pic2.jpg">
+            <div id="plus">
+              <a href="#"><img src="images/phus.png" alt=""></a>
+            </div>
+            <div class="mask">
+              <h4>Partnership guidlines</h4>
+            </div>
+          </div>
+          <div class="wow slideInRight" data-wow-delay="1s">
+            <img src="images/lovely-work/pic3.jpg">
+            <div id="plus">
+              <a href="#"><img src="images/phus.png" alt=""></a>
+            </div>
+            <div class="mask">
+              <h4>Partnership guidlines</h4>
+            </div>
+          </div>
+          <div class="wow slideInLeft" data-wow-delay="1s">
+            <img src="images/lovely-work/pic4.jpg">
+            <div id="plus">
+              <a href="#"><img src="images/phus.png" alt=""></a>
+            </div>
+            <div class="mask">
+              <h4>Partnership guidlines</h4>
+            </div>
+          </div>
+          <div class="wow slideInLeft" data-wow-delay="1s">
+            <img src="images/lovely-work/pic5.jpg">
+            <div id="plus">
+              <a href="#"><img src="images/phus.png" alt=""></a>
+            </div>
+            <div class="mask">
+              <h4>Partnership guidlines</h4>
+            </div>
+          </div>
+          <div class="wow slideInLeft" data-wow-delay="1s">
+            <img src="images/lovely-work/pic6.jpg">
+            <div id="plus">
+              <a href="#"><img src="images/phus.png" alt=""></a>
+            </div>
+            <div class="mask">
+              <h4>Partnership guidlines</h4>
+            </div>
+          </div>
+        </div>
+        <div id="action">
+          <button>Show me more</button>
+        </div>
+      </div>
+    </div>
+    <!-- What we do -->
+    <div id="what-we-do">
+      <div class="container">
+        <h2 class="has-first-block">What we do.</h2>
+        <ul>
+          <li>
+            <h4>Easy theme setup</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
+          </li>
+          <li>
+            <h4>Pixel perfect design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
+          </li>
+          <li>
+            <h4>Responsiv display</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
+          </li>
+          <li>
+            <h4>24/7 support</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
+          </li>
+          <li>
+            <h4>Easy theme setup</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
+          </li>
+          <li>
+            <h4>Pixel perfect design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
+          </li>
+          <li>
+            <h4>Responsiv display</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
+          </li>
+          <li>
+            <h4>24/7 support</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
+          </li>
+        </ul>
+      </div>
     </div>
 
+    <!-- Feature -->
+    <div id="feature">
+      <div class="container">
+        <h2 class="has-first-block">Features.</h2>
+        <div id="feature-list">
+          <div>
+            <img src="images/feature/pic1.jpg">
+            <h4>Product Design: Eames Chairs</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
+          </div>
+          <div>
+            <img src="images/feature/pic2.jpg">
+            <h4>Elegant and Colorful Logos</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
+          </div>
+          <div>
+            <img src="images/feature/pic3.jpg">
+            <h4>A Showcase of Creative</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div id="contact">
+      <div class="container">
+        <h2 class="has-first-block">Stay in touch.</h2>
+      </div>
+      <div id="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29793.98839009512!2d105.81945407643936!3d21.022738704089885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab9bd9861ca1%3A0xe7887f7b72ca17a9!2zSMOgIE7hu5lpLCBIb8OgbiBLaeG6v20sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1592787404329!5m2!1svi!2s"
+          width="100%" height="350px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0"></iframe>
+      </div>
+      <div class="contact-info container">
+        <div>
+          <h4>Contact information</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Sed nisi metusLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed isi
+            metus. Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit. </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.</p>
+        </div>
+        <!-- ----------------------- form -------------------------->
+        <form style="z-index: 100000000;">
+          <div class="two-col">
+            <div>
+              <label for="name">Your name</label>
+              <input type="text" name="name" id="name">
+            </div>
+            <div>
+              <label for="email">Your email</label>
+              <input type="email" name="email" id="email">
+            </div>
+          </div>
+          <div>
+            <label>Your message</label>
+            <textarea id="message" name="message" rows="10"></textarea>
+          </div>
+          <div>
+            <button type="submit">Send message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; Copyright 2014 by Huỳnh Nguyễn. All right reserved.</p>
+        <ul>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Skype</a></li>
+          <li><a href="#">Be</a></li>
+          <li><a href="#">Linkedin</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')
-    </script>
-  
-    <script src="node_modules/sal.js/dist/sal.js"></script>
-    <script>
-        sal();
-    </script>
-    <script>
-        new WOW().init();
-    </script>
-    <script>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/img_367892.png"
+      style="height: 1.5rem;width: 1.5rem;"></button>
 
-   
-            const toggleButton = document.getElementsByClassName('toggle-button')[0]
-            const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')
+  </script>
 
-            toggleButton.addEventListener('click', () => {
-                    navbarLinks.classList.toggle('active')
-                                        })
-    </script>
-    <script type="text/javascript" src="load.js"></script>
+  <script src="node_modules/sal.js/dist/sal.js"></script>
+  <script>
+    sal();
+  </script>
+  <script>
+    new WOW().init();
+  </script>
+
+  <script>
+    const toggleButton = document.getElementsByClassName('toggle-button')[0]
+    const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+    toggleButton.addEventListener('click', () => {
+      navbarLinks.classList.toggle('active')
+    })
+
+    window.onscroll = function () { fixHeader(); scrollFunction() };
+    var header = document.querySelectorAll('header')[0];
+    var sticky = header.offsetTop;
+
+    function fixHeader() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("header");
+      } else {
+        header.classList.remove("header");
+      }
+    }
+
+    var mybutton = document.getElementById("myBtn");
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+  <script type="text/javascript" src="load.js"></script>
 </body>
 
 
